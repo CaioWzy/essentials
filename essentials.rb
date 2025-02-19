@@ -6,9 +6,10 @@ class Essentials < Formula
   license "Unlicense"
 
   depends_on "wget"
+  depends_on "curl"
+  depends_on "glances"
 
   def install
-    system "make", "install"
   end
 
   test do
